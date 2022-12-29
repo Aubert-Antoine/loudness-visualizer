@@ -1,6 +1,8 @@
 # Loudness - Visualizer :
-Loudness - Visualizer is a personal project, still in progress. This is a Chrome extension, which will be able to fetch the audio stream of the current webpage. 
-The goal is to display, through many way the I/O power of the sound. 
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Aubert-Antoine/loudness-visualizer/blob/master/LICENSE.GPL)
+[![Dev In Progess](https://img.shields.io/badge/development-In%20Progress-brightgreen)](https://gitHub.com/Aubert-Antoine/loudness-visualizer/graphs/commit-activity)
+
+
+Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, which is able to retrieve the audio stream of the current web page and display the sound strength in several ways. 
 
 ---
-
