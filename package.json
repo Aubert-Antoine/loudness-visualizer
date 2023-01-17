@@ -6,7 +6,7 @@
   "author": "Antoine Aubert <antoine0aubert@edu.esiee.fr>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack"
+    "dev": "webpack --watch --progress --confg webpack.config.js"
   },
   "dependencies": {
     "global": "^4.4.0",
