@@ -7,6 +7,11 @@ Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, 
 
 ---
 
+> **Warning**
+>  
+> **Note**
+- **[`patterns`](#)**
+
 ## Yarn : 
 
 yarn is needed to run the code :
