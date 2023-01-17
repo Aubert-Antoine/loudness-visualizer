@@ -18,3 +18,4 @@ yarn add ts-loader
 and type script 
 yarn add global typescript
 
+test
