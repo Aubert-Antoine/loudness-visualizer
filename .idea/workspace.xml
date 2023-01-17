@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="del unused files">
-      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-    </list>
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="yarn webpack" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673972051918</updated>
-      <workItem from="1673972052348" duration="698000" />
+      <workItem from="1673972052348" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -51,7 +48,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673972451064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update files">
+      <created>1673972866653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673972866653</updated>
+    </task>
+    <task id="LOCAL-00003" summary="yarn files">
+      <created>1673972879513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673972879513</updated>
+    </task>
+    <task id="LOCAL-00004" summary="yarn webpack">
+      <created>1673973033704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673973033704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,6 +77,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="del unused files" />
-    <option name="LAST_COMMIT_MESSAGE" value="del unused files" />
+    <MESSAGE value="update files" />
+    <MESSAGE value="yarn files" />
+    <MESSAGE value="yarn webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="yarn webpack" />
   </component>
 </project>
