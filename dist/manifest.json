@@ -3,7 +3,7 @@
   "name": "loudness-visualizer",
   "description": "loudness-visualizer is a Chrome app which display metrics about the audio stream in the current tab.",
   "version": "1.0.0",
-  "icon": {
+  "icons": {
     "16": "icon.png",
     "48": "icon.png",
     "124": "icon.png"

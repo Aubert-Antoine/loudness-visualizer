@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="update README.md for test">
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 3 [#2] ==&gt; bug copy-webpack === Fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <workItem from="1673995032867" duration="307000" />
       <workItem from="1673995416080" duration="193000" />
       <workItem from="1673995663630" duration="2871000" />
-      <workItem from="1674059229986" duration="534000" />
+      <workItem from="1674059229986" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -169,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673998423727</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Part 3 [#2] ==&gt; bug copy-webpack === Fixed">
+      <created>1674061003045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674061003045</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +221,7 @@
     <MESSAGE value="typo" />
     <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack" />
     <MESSAGE value="update README.md for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md for test" />
+    <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack === Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 3 [#2] ==&gt; bug copy-webpack === Fixed" />
   </component>
 </project>
