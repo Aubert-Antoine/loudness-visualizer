@@ -23,6 +23,10 @@ module.exports = {
                 from: path.resolve('src/assets/manifest.json'),
                 to: path.resolve('dist')
                 },
+                {
+                from: path.resolve('src/assets/icon.png'),
+                to: path.resolve('dist')
+                }
             ],
         }),
         new HtmlPlugin({

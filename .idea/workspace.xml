@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="extension load ok">
-      <change afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="popup.html is working thanks to html-webpack-plugin">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +83,7 @@
       <workItem from="1673995032867" duration="307000" />
       <workItem from="1673995416080" duration="193000" />
       <workItem from="1673995663630" duration="2871000" />
-      <workItem from="1674059229986" duration="3049000" />
+      <workItem from="1674059229986" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -207,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674061990272</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="popup.html is working thanks to html-webpack-plugin">
+      <created>1674065650784</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674065650784</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +250,7 @@
     <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack === Fixed" />
     <MESSAGE value="icon fix" />
     <MESSAGE value="extension load ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="extension load ok" />
+    <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="popup.html is working thanks to html-webpack-plugin" />
   </component>
 </project>

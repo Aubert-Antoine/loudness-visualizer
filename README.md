@@ -10,7 +10,17 @@ Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, 
 > **[`issues`](https://github.com/Aubert-Antoine/loudness-visualizer/issues)**
 > **[`discussions`](https://github.com/Aubert-Antoine/loudness-visualizer/discussions)**
 
-## Yarn : 
+## Code information
+### Load the extension : 
+Load the extension on Chrome [**here**](chrome://extensions/) and select `./dist`.
+The code make in the `./src` folder is transcript in the `./dist` thanks to [*webpack*](https://webpack.js.org/)
+
+### The **`yarn commands`** : 
+```
+yarn run dev --watch
+```
+
+### Yarn : 
 > **Warning**
 > yarn is needed to run the code :
 ```
