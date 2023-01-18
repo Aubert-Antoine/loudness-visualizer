@@ -19,6 +19,7 @@ yarn add react react-dom
 yarn add webpack webpack-cli --dev
 yarn add ts-loader
 yarn add -D copy-webpack-plugin
+yarn add -D html-webpack-plugin
 ```
 and type script 
 `yarn add global typescript`

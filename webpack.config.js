@@ -1,9 +1,12 @@
 const path = require('path')
 const CopyPlugin = require('copy-webpack-plugin');
+const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode:"development",
-    entry: "./src/test.tsx",
+    entry: {
+        popup: './src/popup/popup.tsx'
+    },
     module: {
         rules: [
             {
@@ -17,10 +20,14 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                from: path.resolve('src/manifest.json'),
+                from: path.resolve('src/assets/manifest.json'),
                 to: path.resolve('dist')
                 },
             ],
+        }),
+        new HtmlPlugin({
+            title :'loudness-visualizer',
+            filename: 'popup.html',
         })
     ],
     resolve: {
