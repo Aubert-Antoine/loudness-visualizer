@@ -12,7 +12,7 @@ Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, 
 
 ## Code information
 ### Load the extension : 
-Load the extension on Chrome [**here**](chrome://extensions/) and select `./dist`.
+Load the extension on Chrome and select `./dist`.
 The code make in the `./src` folder is transcript in the `./dist` thanks to [*webpack*](https://webpack.js.org/)
 
 ### The Git Graph : 
@@ -48,7 +48,6 @@ yarn add -D html-webpack-plugin
 yarn add -D style-loader css-loader
 yarn add -D tailwindcss postcss autoprefixer
 yarn add -D postcss-loader
-
 ```
 and type script 
 `yarn add global typescript`
