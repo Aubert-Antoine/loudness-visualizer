@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 3 [#end] -|- simple popup">
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 4 popup.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <workItem from="1673995416080" duration="193000" />
       <workItem from="1673995663630" duration="2871000" />
       <workItem from="1674059229986" duration="4682000" />
-      <workItem from="1674151326459" duration="304000" />
+      <workItem from="1674151326459" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -213,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674066283169</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Part 4 popup.html">
+      <created>1674151781786</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674151781786</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Part 4 popup.html">
+      <created>1674152008771</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674152008771</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +276,7 @@
     <MESSAGE value="extension load ok" />
     <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
     <MESSAGE value="Part 3 [#end] -|- simple popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 3 [#end] -|- simple popup" />
+    <MESSAGE value="Part 4 popup.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 4 popup.html" />
   </component>
 </project>
