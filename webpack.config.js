@@ -5,7 +5,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 module.exports = {
     mode:"development",
     entry: {
-        popup: './src/popup/popup.tsx'
+        popup: path.resolve('./src/popup/popup.tsx'),
     },
     module: {
         rules: [
@@ -32,12 +32,13 @@ module.exports = {
         new HtmlPlugin({
             title :'loudness-visualizer',
             filename: 'popup.html',
+            chunks: ['popup']
         })
     ],
     resolve: {
         extensions: ['.tsx', 'ts', '.js']
     },
     output: {
-        filename: "index.js"
+        filename: '[name].js'
     }
 }
