@@ -19,14 +19,14 @@ The code make in the `./src` folder is transcript in the `./dist` thanks to [*we
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
     gitGraph
-       commit id: "1"
-       commit id: "2"
-       commit id: "3"
+       commit
+       commit
+       commit
        branch dev
-       commit id: "4"
+       commit
        checkout dev
        branch React
-       commit id: "5" tag: "Bug to render html and css" type: REVERSE
+       commit tag: "Bug to render html and css" type: REVERSE
        
 ```
 
