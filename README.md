@@ -15,7 +15,22 @@ Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, 
 Load the extension on Chrome [**here**](chrome://extensions/) and select `./dist`.
 The code make in the `./src` folder is transcript in the `./dist` thanks to [*webpack*](https://webpack.js.org/)
 
-### The **`yarn commands`** : 
+### The Git Graph : 
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
+    gitGraph
+       commit id: "1"
+       commit id: "2"
+       commit id: "3"
+       branch dev
+       commit id: "4"
+       checkout dev
+       branch React
+       commit id: "5" tag: "Bug to render html and css" type: REVERSE
+       
+```
+
+### The **yarn commands** : 
 ```
 yarn run dev --watch
 ```
