@@ -30,6 +30,10 @@ yarn add webpack webpack-cli --dev
 yarn add ts-loader
 yarn add -D copy-webpack-plugin
 yarn add -D html-webpack-plugin
+yarn add -D style-loader css-loader
+yarn add -D tailwindcss postcss autoprefixer
+yarn add -D postcss-loader
+
 ```
 and type script 
 `yarn add global typescript`
