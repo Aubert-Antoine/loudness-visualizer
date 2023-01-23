@@ -1,0 +1,91 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"989be879-e9b3-4b92-bd83-2159f9a5a863\" name=\"Changes\" comment=\"Part 4 popup.html\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/popup/popup.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/popup/popup.tsx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KSdiqHSOOGRyh8fl0HaeH40MzW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,\r\n    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/antoi/IdeaProjects/loudness-visualizer/dist&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;C:\\\\Users\\\\antoi\\\\IdeaProjects\\\\loudness-visualizer\\\\node_modules\\\\typescript\\\\lib&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\dist\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\src\\assets\" />\r\n      <recent name=\"C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"989be879-e9b3-4b92-bd83-2159f9a5a863\" name=\"Changes\" comment=\"\" />\r\n      <created>1673972051918</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673972051918</updated>\r\n      <workItem from=\"1673972052348\" duration=\"2975000\" />\r\n      <workItem from=\"1673994188108\" duration=\"540000\" />\r\n      <workItem from=\"1673994758642\" duration=\"60000\" />\r\n      <workItem from=\"1673995032867\" duration=\"307000\" />\r\n      <workItem from=\"1673995416080\" duration=\"193000\" />\r\n      <workItem from=\"1673995663630\" duration=\"2871000\" />\r\n      <workItem from=\"1674059229986\" duration=\"4682000\" />\r\n      <workItem from=\"1674151326459\" duration=\"925000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"del unused files\">\r\n      <created>1673972451064</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673972451064</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"update files\">\r\n      <created>1673972866653</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673972866653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"yarn files\">\r\n      <created>1673972879513</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673972879513</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"yarn webpack\">\r\n      <created>1673973033704</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673973033704</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"webpack.config.js\">\r\n      <created>1673973383355</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673973383355</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"add typescript\">\r\n      <created>1673973533829</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673973533829</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"yarn auto update\">\r\n      <created>1673974090411</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673974090411</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"part 2 run successfully\">\r\n      <created>1673974820673</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673974820673</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"part 2 run ok\">\r\n      <created>1673994328935</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673994328935</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"part 3 [#1]\">\r\n      <created>1673994726726</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673994726726</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"typo\">\r\n      <created>1673997876347</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673997876347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Part 3 [#2] ==&gt; bug copy-webpack\">\r\n      <created>1673997919433</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673997919433</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"update README.md for test\">\r\n      <created>1673998423727</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673998423727</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Part 3 [#2] ==&gt; bug copy-webpack === Fixed\">\r\n      <created>1674061003045</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674061003045</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"icon fix\">\r\n      <created>1674061862620</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674061862620</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"extension load ok\">\r\n      <created>1674061990272</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674061990272</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"popup.html is working thanks to html-webpack-plugin\">\r\n      <created>1674065650784</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674065650784</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Part 3 [#end] -|- simple popup\">\r\n      <created>1674066283169</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674066283169</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Part 4 popup.html\">\r\n      <created>1674151781786</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674151781786</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Part 4 popup.html\">\r\n      <created>1674152008771</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674152008771</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"del unused files\" />\r\n    <MESSAGE value=\"update files\" />\r\n    <MESSAGE value=\"yarn files\" />\r\n    <MESSAGE value=\"yarn webpack\" />\r\n    <MESSAGE value=\"webpack.config.js\" />\r\n    <MESSAGE value=\"add typescript\" />\r\n    <MESSAGE value=\"yarn auto update\" />\r\n    <MESSAGE value=\"part 2 run successfully\" />\r\n    <MESSAGE value=\"part 2 run ok\" />\r\n    <MESSAGE value=\"part 3 [#1]\" />\r\n    <MESSAGE value=\"typo\" />\r\n    <MESSAGE value=\"Part 3 [#2] ==&gt; bug copy-webpack\" />\r\n    <MESSAGE value=\"update README.md for test\" />\r\n    <MESSAGE value=\"Part 3 [#2] ==&gt; bug copy-webpack === Fixed\" />\r\n    <MESSAGE value=\"icon fix\" />\r\n    <MESSAGE value=\"extension load ok\" />\r\n    <MESSAGE value=\"popup.html is working thanks to html-webpack-plugin\" />\r\n    <MESSAGE value=\"Part 3 [#end] -|- simple popup\" />\r\n    <MESSAGE value=\"Part 4 popup.html\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Part 4 popup.html\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 4 popup.html">
+-      <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
++    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 4 : Hello world From Popup">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,6 +18,7 @@
+       <list>
+         <option value="JavaScript File" />
+         <option value="HTML File" />
++        <option value="CSS File" />
+       </list>
+     </option>
+   </component>
+@@ -50,6 +52,7 @@
+     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,
+     &quot;last_opened_file_path&quot;: &quot;C:/Users/antoi/IdeaProjects/loudness-visualizer/dist&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+@@ -66,6 +69,7 @@
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\assets" />
++      <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\static" />
+       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src" />
+     </key>
+   </component>
+@@ -84,7 +88,8 @@
+       <workItem from="1673995416080" duration="193000" />
+       <workItem from="1673995663630" duration="2871000" />
+       <workItem from="1674059229986" duration="4682000" />
+-      <workItem from="1674151326459" duration="925000" />
++      <workItem from="1674151326459" duration="4051000" />
++      <workItem from="1674499986495" duration="363000" />
+     </task>
+     <task id="LOCAL-00001" summary="del unused files">
+       <created>1673972451064</created>
+@@ -226,7 +231,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1674152008771</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="Part 4 : Hello world From Popup">
++      <created>1674152420268</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1674152420268</updated>
++    </task>
++    <option name="localTasksCounter" value="22" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -243,7 +255,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="master" />
++                        <option value="React" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -275,6 +287,7 @@
+     <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
+     <MESSAGE value="Part 3 [#end] -|- simple popup" />
+     <MESSAGE value="Part 4 popup.html" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Part 4 popup.html" />
++    <MESSAGE value="Part 4 : Hello world From Popup" />
++    <option name="LAST_COMMIT_MESSAGE" value="Part 4 : Hello world From Popup" />
+   </component>
+ </project>
+\ No newline at end of file
