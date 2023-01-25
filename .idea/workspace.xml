@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="npm install --save-dev packages">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Detail of npm packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <workItem from="1674151326459" duration="925000" />
       <workItem from="1674550785979" duration="46000" />
       <workItem from="1674552146749" duration="41000" />
-      <workItem from="1674645498249" duration="1671000" />
+      <workItem from="1674645498249" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674646640181</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Detail of npm packages">
+      <created>1674647256899</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674647256899</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +310,7 @@
     <MESSAGE value="webpack.config.js update" />
     <MESSAGE value="install tailwind and autoprefixer via intellij" />
     <MESSAGE value="npm install --save-dev packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm install --save-dev packages" />
+    <MESSAGE value="Detail of npm packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detail of npm packages" />
   </component>
 </project>
