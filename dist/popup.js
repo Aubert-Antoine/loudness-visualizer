@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@tailwind base\r\n@tailwind components\r\n@tailwind utilities\r\n\r\nbody {\r\n    height: 400px;\r\n    width: 400px;\r\n    background-color: orangered;\r\n}", "",{"version":3,"sources":["webpack://./src/assets/tailwindcss.css"],"names":[],"mappings":"AAAA;;;;;IAKI,aAAa;IACb,YAAY;IACZ,2BAA2B;AAC/B","sourcesContent":["@tailwind base\r\n@tailwind components\r\n@tailwind utilities\r\n\r\nbody {\r\n    height: 400px;\r\n    width: 400px;\r\n    background-color: orangered;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@tailwind base\n@tailwind components\n@tailwind utilities\n\nbody {\n    height: 400px;\n    width: 400px;\n    background-color: blue;\n}\n\n* {\n    background-color: orangered;\n}", "",{"version":3,"sources":["webpack://./src/assets/tailwindcss.css"],"names":[],"mappings":"AAAA;;;;;IAKI,aAAa;IACb,YAAY;IACZ,sBAAsB;AAC1B;;AAEA;IACI,2BAA2B;AAC/B","sourcesContent":["@tailwind base\n@tailwind components\n@tailwind utilities\n\nbody {\n    height: 400px;\n    width: 400px;\n    background-color: blue;\n}\n\n* {\n    background-color: orangered;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -33981,7 +33981,7 @@ __webpack_require__.r(__webpack_exports__);
 const test = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-sm font-medium text-red-600" }, "Hello World"),
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet..."),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Another test of the popup")));
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", { className: "text-sm font-medium text-red-600" }, " Another test of the popup")));
 const container = document.createElement('div');
 document.body.appendChild(container);
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(container);

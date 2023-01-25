@@ -6,7 +6,7 @@ const test = (
     <div>
         <h1 className="text-sm font-medium text-red-600">Hello World</h1>
         <p>Lorem ipsum dolor sit amet...</p>
-        <p>Another test of the popup</p>
+        <p className="text-sm font-medium text-red-600"> Another test of the popup</p>
     </div>
 )
 
