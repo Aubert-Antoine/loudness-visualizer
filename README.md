@@ -22,6 +22,15 @@ yarn run dev --watch
 
 ### Yarn : 
 > **Warning**
+> npm is needed to run the code :
+```
+npm install --save-dev style-loader         
+npm install --save-dev css-loader           
+npm install --save-dev postcss-loader postcss
+npm list  
+```
+_some package have been added both with npm and yarn because yarn packages are not load correctly_
+
 > yarn is needed to run the code :
 ```
 yarn init -y
@@ -31,5 +40,6 @@ yarn add ts-loader
 yarn add -D copy-webpack-plugin
 yarn add -D html-webpack-plugin
 ```
+
 and type script 
 `yarn add global typescript`
