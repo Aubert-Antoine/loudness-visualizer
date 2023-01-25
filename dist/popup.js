@@ -33979,7 +33979,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const test = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl text-green-500" }, "Hello World"),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-sm font-medium text-red-600" }, "Hello World"),
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet..."),
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Another test of the popup")));
 const container = document.createElement('div');

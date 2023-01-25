@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Detail of npm packages">
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="text is display in the window but not the css style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +91,8 @@
       <workItem from="1674151326459" duration="925000" />
       <workItem from="1674550785979" duration="46000" />
       <workItem from="1674552146749" duration="41000" />
-      <workItem from="1674645498249" duration="2686000" />
+      <workItem from="1674645498249" duration="3014000" />
+      <workItem from="1674651320715" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -258,11 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674647256899</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="text is display in the window but not the css style">
+      <created>1674648479554</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674648479554</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -311,6 +325,9 @@
     <MESSAGE value="install tailwind and autoprefixer via intellij" />
     <MESSAGE value="npm install --save-dev packages" />
     <MESSAGE value="Detail of npm packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detail of npm packages" />
+    <MESSAGE value="text is display in the window but not the css style" />
+    <option name="LAST_COMMIT_MESSAGE" value="text is display in the window but not the css style" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
