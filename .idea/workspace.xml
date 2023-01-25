@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="webpack.config.js update" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="install tailwind and autoprefixer via intellij">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +88,9 @@
       <workItem from="1673995663630" duration="2871000" />
       <workItem from="1674059229986" duration="4682000" />
       <workItem from="1674151326459" duration="925000" />
+      <workItem from="1674550785979" duration="46000" />
+      <workItem from="1674552146749" duration="41000" />
+      <workItem from="1674645498249" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -231,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674500744930</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="install tailwind and autoprefixer via intellij">
+      <created>1674501150655</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674501150655</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +296,7 @@
     <MESSAGE value="Part 3 [#end] -|- simple popup" />
     <MESSAGE value="Part 4 popup.html" />
     <MESSAGE value="webpack.config.js update" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack.config.js update" />
+    <MESSAGE value="install tailwind and autoprefixer via intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="install tailwind and autoprefixer via intellij" />
   </component>
 </project>
