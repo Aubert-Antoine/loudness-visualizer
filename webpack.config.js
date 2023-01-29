@@ -5,10 +5,11 @@ const autoprefixer = require("autoprefixer");
 const tailwindcss = require('tailwindcss');
 
 module.exports = {
-    mode:"development",
+    mode: "development",
     devtool: 'cheap-module-source-map',
     entry: {
         popup: path.resolve('./src/popup/popup.tsx'),
+        options: path.resolve('./src/options/options.tsx'),
     },
     module: {
         rules: [
@@ -40,11 +41,10 @@ module.exports = {
                 },
             ],
         }),
-        new HtmlPlugin({
-            title: 'loudness-visualizer',
-            filename: 'popup.html',
-            chunks: ['popup']
-        })
+        ...getHtmlPlugins([
+            'popup',
+            'options',
+        ])
     ],
     resolve: {
         extensions: ['.tsx', 'ts', '.js']
@@ -53,3 +53,11 @@ module.exports = {
         filename: '[name].js'
     },
 };
+
+function getHtmlPlugins(chunks) {
+    return chunks.map(chunk => new HtmlPlugin({
+        title: 'React Extension',
+        filename: `${chunk}.html`,
+        chunks: [chunk]
+    }))
+}
