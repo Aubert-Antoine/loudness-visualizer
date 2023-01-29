@@ -5,8 +5,8 @@ import '../assets/tailwind.css';
 const test = (
     <div>
         <h1 className="text-5xl text-green-500">Hello World</h1>
-        <p>Lorem ipsum dolor sit amet...</p>
-        <p> Another test of the popup</p>
+        <br/>
+        <img src="vuMeter.gif" alt="A gif of a VU meter"/>
     </div>
 )
 
