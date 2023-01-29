@@ -27,7 +27,7 @@ module.exports = {
                         }
                     }
                 }],
-                test: /\.css$/,
+                test: /\.css$/i,
             }
         ]
     },
@@ -41,7 +41,7 @@ module.exports = {
             ],
         }),
         new HtmlPlugin({
-            title :'loudness-visualizer',
+            title: 'loudness-visualizer',
             filename: 'popup.html',
             chunks: ['popup']
         })
@@ -51,5 +51,5 @@ module.exports = {
     },
     output: {
         filename: '[name].js'
-    }
-}
+    },
+};
