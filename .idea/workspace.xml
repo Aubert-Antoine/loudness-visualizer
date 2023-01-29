@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 6 options is not display">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/options/options.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/options/options.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/manifest.json" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="delete unused file">
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +93,7 @@
       <workItem from="1674645498249" duration="3014000" />
       <workItem from="1674651320715" duration="606000" />
       <workItem from="1674662991001" duration="1985000" />
-      <workItem from="1674995454057" duration="10056000" />
+      <workItem from="1674995454057" duration="10378000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -311,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675010174432</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Part 6 options page is display">
+      <created>1675011232923</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675011232923</updated>
+    </task>
+    <task id="LOCAL-00032" summary="delete unused file">
+      <created>1675011377058</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675011377058</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,8 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="yarn webpack" />
-    <MESSAGE value="webpack.config.js" />
     <MESSAGE value="add typescript" />
     <MESSAGE value="yarn auto update" />
     <MESSAGE value="part 2 run successfully" />
@@ -369,7 +375,9 @@
     <MESSAGE value="test tailwind.config.js" />
     <MESSAGE value="Let's go !" />
     <MESSAGE value="Part 6 options is not display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 6 options is not display" />
+    <MESSAGE value="Part 6 options page is display" />
+    <MESSAGE value="delete unused file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused file" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -52,6 +52,12 @@ module.exports = {
     output: {
         filename: '[name].js'
     },
+    optimization: {
+        splitChunks: {
+            // include all types of chunks
+            chunks: 'all',
+        },
+    },
 };
 
 function getHtmlPlugins(chunks) {
