@@ -43,7 +43,7 @@ module.exports = {
         }),
         ...getHtmlPlugins([
             'popup',
-            'options',
+            'options'
         ])
     ],
     resolve: {

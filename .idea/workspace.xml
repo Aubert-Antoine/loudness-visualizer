@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Let's go !">
-      <change afterPath="$PROJECT_DIR$/src/options/options.tsx" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 6 options is not display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/options/options.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/options/options.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +99,7 @@
       <workItem from="1674645498249" duration="3014000" />
       <workItem from="1674651320715" duration="606000" />
       <workItem from="1674662991001" duration="1985000" />
-      <workItem from="1674995454057" duration="8788000" />
+      <workItem from="1674995454057" duration="10056000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -304,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675001875516</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Part 6 options is not display">
+      <created>1675010174432</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675010174432</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +344,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="yarn files" />
     <MESSAGE value="yarn webpack" />
     <MESSAGE value="webpack.config.js" />
     <MESSAGE value="add typescript" />
@@ -362,7 +368,8 @@
     <MESSAGE value="-css work __ tailwind ?" />
     <MESSAGE value="test tailwind.config.js" />
     <MESSAGE value="Let's go !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Let's go !" />
+    <MESSAGE value="Part 6 options is not display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 6 options is not display" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
