@@ -22,12 +22,17 @@ The code make in the `./src` folder is transcript in the `./dist` thanks to [*we
        commit
        commit
        commit
-       branch dev
+       branch Dev
        commit
-       checkout dev
+       checkout Dev
        branch React
-       commit tag: "Bug to render html and css" type: REVERSE
-       
+       commit
+       commit
+       checkout Dev
+       merge React
+       checkout Dev
+       branch Extension_Properties
+       commit
 ```
 
 ### The **yarn commands** : 
