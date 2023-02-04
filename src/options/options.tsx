@@ -4,9 +4,7 @@ import '../assets/tailwind.css';
 
 const test = (
     <div>
-        <h1 className="text-5xl text-green-500">Hello World</h1>
-        <br/>
-        <img src="vuMeter.gif" alt="A gif of a VU meter"/>
+        <h1 className="text-5xl text-green-500">Options</h1>
     </div>
 )
 
