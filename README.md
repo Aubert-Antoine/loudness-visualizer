@@ -41,6 +41,7 @@ yarn add ts-loader
 yarn add -D copy-webpack-plugin
 yarn add -D html-webpack-plugin
 yarn add -D postcss-loader
+yarn add -D @types/react @types/react-dom @types/chrome
 ```
 
 and type script 
