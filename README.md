@@ -11,18 +11,26 @@
 > **[`discussions`](https://github.com/Aubert-Antoine/loudness-visualizer/discussions)**
 
 ## Code information
-### Load the extension : 
+
+### Load the extension :
+
 Load the extension on Chrome [**here**](chrome://extensions/) and select `./dist`.
 The code make in the `./src` folder is transcript in the `./dist` thanks to [*webpack*](https://webpack.js.org/)
 
-### The **`yarn commands`** : 
+### The **`yarn commands`** :
+
 ```
 yarn run dev --watch
+
 ```
 
-### Yarn : 
+`yarn run webpack --watch --progress --config webpack.prod.js` = yarn run build
+
+### Yarn :
+
 > **Warning**
 > npm is needed to run the code :
+
 ```
 npm install --save-dev style-loader         
 npm install --save-dev css-loader           
@@ -41,6 +49,8 @@ yarn add ts-loader
 yarn add -D copy-webpack-plugin
 yarn add -D html-webpack-plugin
 yarn add -D postcss-loader
+yarn add -D @types/react @types/react-dom @types/chrome
+yarn add -D webpack-merge
 ```
 
 and type script 
