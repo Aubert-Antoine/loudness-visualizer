@@ -26,6 +26,39 @@ yarn run dev --watch
 
 `yarn run webpack --watch --progress --config webpack.prod.js` = yarn run build
 
+### The Git Graph :
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
+    gitGraph
+       commit
+       commit
+       commit
+       branch Dev
+       commit
+       checkout Dev
+       branch React
+       commit
+       commit
+       checkout Dev
+       merge React
+       checkout Dev
+       commit
+       branch Extension_Properties
+       commit
+       checkout Dev
+       merge Extension_Properties
+       checkout Dev
+       commit
+       checkout main
+       merge Dev
+       checkout Dev
+       branch api_stream
+       checkout api_stream
+       commit
+       branch audio
+```
+
 ### Yarn :
 
 > **Warning**

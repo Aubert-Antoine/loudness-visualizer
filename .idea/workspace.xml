@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End part 8" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End of Extension-Properties" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="React" />
+        <entry key="$PROJECT_DIR$" value="Extension-Properties" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Extension-Properties",
+    "git-widget-placeholder": "dev",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.11.18",
     "last_opened_file_path": "C:/Users/antoi/IdeaProjects/loudness-visualizer/dist",
@@ -413,7 +413,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Extension-Properties" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
