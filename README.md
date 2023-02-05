@@ -31,8 +31,20 @@ The code make in the `./src` folder is transcript in the `./dist` thanks to [*we
        checkout Dev
        merge React
        checkout Dev
+       commit
        branch Extension_Properties
        commit
+       checkout Dev
+       merge Extension_Properties
+       checkout Dev
+       commit
+       checkout main
+       merge Dev
+       checkout Dev
+       branch api_stream
+       checkout api_stream
+       commit
+       branch audio
 ```
 
 ### The **yarn commands** : 
