@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="contentScript.ts works">
-      <change afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/background.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contentScript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="yarn run webpack --watch --progress --config webpack.prod.js">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contentScript/contentScript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contentScript/contentScript.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "ts.external.directory.path": "C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\antoi\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.5920.14\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,7 +100,7 @@
       <workItem from="1674651320715" duration="606000" />
       <workItem from="1674662991001" duration="1985000" />
       <workItem from="1674995454057" duration="11851000" />
-      <workItem from="1675537546533" duration="7073000" />
+      <workItem from="1675537546533" duration="7373000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -388,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675615928351</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="yarn run webpack --watch --progress --config webpack.prod.js">
+      <created>1675617194291</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675617194291</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update README.md for test" />
     <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack === Fixed" />
     <MESSAGE value="icon fix" />
     <MESSAGE value="extension load ok" />
@@ -447,7 +440,8 @@
     <MESSAGE value="Background" />
     <MESSAGE value="End part 7" />
     <MESSAGE value="contentScript.ts works" />
-    <option name="LAST_COMMIT_MESSAGE" value="contentScript.ts works" />
+    <MESSAGE value="yarn run webpack --watch --progress --config webpack.prod.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="yarn run webpack --watch --progress --config webpack.prod.js" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
