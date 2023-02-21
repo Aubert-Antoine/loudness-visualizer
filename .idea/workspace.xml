@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End of Extension-Properties" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End of Extension-Properties">
+      <change afterPath="$PROJECT_DIR$/src/popup/gif.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/background.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contentScript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/background.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/background.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contentScript/contentScript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contentScript/contentScript.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +38,14 @@
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Extension-Properties" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "api__stream",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.11.18",
     "last_opened_file_path": "C:/Users/antoi/IdeaProjects/loudness-visualizer/dist",
@@ -61,7 +83,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "ts.external.directory.path": "C:\\Users\\antoi\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.5920.14\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -393,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675617714603</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Merge on main from dev">
+      <created>1676975747600</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1676975747601</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="extension load ok" />
     <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
     <MESSAGE value="Part 3 [#end] -|- simple popup" />
     <MESSAGE value="Part 4 popup.html" />
@@ -452,7 +480,8 @@
     <MESSAGE value="yarn run webpack --watch --progress --config webpack.prod.js" />
     <MESSAGE value="yarn run &quot;scripts&quot; config" />
     <MESSAGE value="End part 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="End part 8" />
+    <MESSAGE value="Merge on main from dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge on main from dev" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

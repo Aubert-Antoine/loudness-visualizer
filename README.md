@@ -86,5 +86,9 @@ yarn add -D @types/react @types/react-dom @types/chrome
 yarn add -D webpack-merge
 ```
 
-and type script 
+and type script
 `yarn add global typescript`
+
+import React from "react";
+import ReactDOM from "react-dom";
+import {createRoot} from "react-dom/client";

@@ -3,5 +3,5 @@ chrome.runtime.onInstalled.addListener(() => {
 })
 
 chrome.bookmarks.onCreated.addListener(() => {
-    console.log('I jsust bookmark a page')
+    console.log('I just bookmark a page')
 })
