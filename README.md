@@ -3,19 +3,31 @@
 [![Dev In Progress](https://img.shields.io/badge/development-In%20Progress-brightgreen)](https://gitHub.com/Aubert-Antoine/loudness-visualizer/graphs/commit-activity)
 
 
->**Note** : 
-Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, which is able to retrieve the audio stream of the current web page and display the sound strength in several ways. 
+> **Note** :
+> Loudness - Visualizer is a personal, ongoing project. It is a Chrome extension, which is able to retrieve the audio stream of the current web page and display the sound strength in several ways. 
 
 **Check there sections**
 > **[`issues`](https://github.com/Aubert-Antoine/loudness-visualizer/issues)**
 > **[`discussions`](https://github.com/Aubert-Antoine/loudness-visualizer/discussions)**
 
 ## Code information
-### Load the extension : 
-Load the extension on Chrome and select `./dist`.
+
+### Load the extension :
+
+Load the extension on Chrome [**here**](chrome://extensions/) and select `./dist`.
 The code make in the `./src` folder is transcript in the `./dist` thanks to [*webpack*](https://webpack.js.org/)
 
-### The Git Graph : 
+### The **`yarn commands`** :
+
+```
+yarn run dev --watch
+
+```
+
+`yarn run webpack --watch --progress --config webpack.prod.js` = yarn run build
+
+### The Git Graph :
+
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
     gitGraph
@@ -47,13 +59,20 @@ The code make in the `./src` folder is transcript in the `./dist` thanks to [*we
        branch audio
 ```
 
-### The **yarn commands** : 
-```
-yarn run dev --watch
-```
+### Yarn :
 
-### Yarn : 
 > **Warning**
+> npm is needed to run the code :
+
+```
+npm install --save-dev style-loader         
+npm install --save-dev css-loader           
+npm install --save-dev postcss-loader postcss
+npm install tailwindcss@latest
+npm list  
+```
+_some package have been added both with npm and yarn because yarn packages are not load correctly_
+
 > yarn is needed to run the code :
 ```
 yarn init -y
@@ -62,9 +81,10 @@ yarn add webpack webpack-cli --dev
 yarn add ts-loader
 yarn add -D copy-webpack-plugin
 yarn add -D html-webpack-plugin
-yarn add -D style-loader css-loader
-yarn add -D tailwindcss postcss autoprefixer
 yarn add -D postcss-loader
+yarn add -D @types/react @types/react-dom @types/chrome
+yarn add -D webpack-merge
 ```
+
 and type script 
 `yarn add global typescript`

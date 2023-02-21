@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Part 4 : Hello world From Popup">
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/tailwindcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End of Extension-Properties" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,16 +13,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Extension-Properties" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,21 +32,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KSdiqHSOOGRyh8fl0HaeH40MzW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.11.18",
     "last_opened_file_path": "C:/Users/antoi/IdeaProjects/loudness-visualizer/dist",
@@ -69,7 +61,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "ts.external.directory.path": "C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\antoi\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.5920.14\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,8 +70,8 @@
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\assets" />
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\static" />
+      <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\assets" />
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src" />
     </key>
   </component>
@@ -98,7 +90,14 @@
       <workItem from="1673995416080" duration="193000" />
       <workItem from="1673995663630" duration="2871000" />
       <workItem from="1674059229986" duration="4682000" />
-      <workItem from="1674151326459" duration="4051000" />
+      <workItem from="1674151326459" duration="925000" />
+      <workItem from="1674550785979" duration="46000" />
+      <workItem from="1674552146749" duration="41000" />
+      <workItem from="1674645498249" duration="3014000" />
+      <workItem from="1674651320715" duration="606000" />
+      <workItem from="1674662991001" duration="1985000" />
+      <workItem from="1674995454057" duration="11851000" />
+      <workItem from="1675537546533" duration="7700000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -240,18 +239,168 @@
       <option name="project" value="LOCAL" />
       <updated>1674152008771</updated>
     </task>
-    <task id="LOCAL-00021" summary="Part 4 : Hello world From Popup">
-      <created>1674152420268</created>
+    <task id="LOCAL-00021" summary="webpack.config.js update">
+      <created>1674500744930</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1674152420268</updated>
+      <updated>1674500744930</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="install tailwind and autoprefixer via intellij">
+      <created>1674501150655</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674501150655</updated>
+    </task>
+    <task id="LOCAL-00023" summary="npm install --save-dev packages">
+      <created>1674646640181</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674646640181</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Detail of npm packages">
+      <created>1674647256899</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674647256899</updated>
+    </task>
+    <task id="LOCAL-00025" summary="text is display in the window but not the css style">
+      <created>1674648479554</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674648479554</updated>
+    </task>
+    <task id="LOCAL-00026" summary="text is display in the window but not the css style">
+      <created>1674651922695</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674651922695</updated>
+    </task>
+    <task id="LOCAL-00027" summary="-css work __ tailwind ?">
+      <created>1674664661445</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674664661445</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test tailwind.config.js">
+      <created>1674664985073</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674664985073</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Let's go !">
+      <created>1675001875516</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675001875516</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Part 6 options is not display">
+      <created>1675010174432</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675010174432</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Part 6 options page is display">
+      <created>1675011232923</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675011232923</updated>
+    </task>
+    <task id="LOCAL-00032" summary="delete unused file">
+      <created>1675011377058</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675011377058</updated>
+    </task>
+    <task id="LOCAL-00033" summary="webpack.config.js optimisation #splitchunks">
+      <created>1675011559893</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675011559893</updated>
+    </task>
+    <task id="LOCAL-00034" summary="images">
+      <created>1675012673297</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675012673297</updated>
+    </task>
+    <task id="LOCAL-00035" summary=".gif in popup">
+      <created>1675012700171</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675012700171</updated>
+    </task>
+    <task id="LOCAL-00036" summary="End part 6 === Close React branch">
+      <created>1675538109387</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538109387</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Background">
+      <created>1675538567006</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538567006</updated>
+    </task>
+    <task id="LOCAL-00038" summary="End part 7">
+      <created>1675613310516</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1675613310516</updated>
+    </task>
+    <task id="LOCAL-00039" summary="contentScript.ts works">
+      <created>1675615928351</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1675615928351</updated>
+    </task>
+    <task id="LOCAL-00040" summary="yarn run webpack --watch --progress --config webpack.prod.js">
+      <created>1675617194291</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675617194291</updated>
+    </task>
+    <task id="LOCAL-00041" summary="yarn run &quot;scripts&quot; config">
+      <created>1675617477789</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675617477789</updated>
+    </task>
+    <task id="LOCAL-00042" summary="End part 8">
+      <created>1675617714603</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1675617714603</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -264,7 +413,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -277,26 +426,34 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="del unused files" />
-    <MESSAGE value="update files" />
-    <MESSAGE value="yarn files" />
-    <MESSAGE value="yarn webpack" />
-    <MESSAGE value="webpack.config.js" />
-    <MESSAGE value="add typescript" />
-    <MESSAGE value="yarn auto update" />
-    <MESSAGE value="part 2 run successfully" />
-    <MESSAGE value="part 2 run ok" />
-    <MESSAGE value="part 3 [#1]" />
-    <MESSAGE value="typo" />
-    <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack" />
-    <MESSAGE value="update README.md for test" />
-    <MESSAGE value="Part 3 [#2] ==&gt; bug copy-webpack === Fixed" />
-    <MESSAGE value="icon fix" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="extension load ok" />
     <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
     <MESSAGE value="Part 3 [#end] -|- simple popup" />
     <MESSAGE value="Part 4 popup.html" />
-    <MESSAGE value="Part 4 : Hello world From Popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 4 : Hello world From Popup" />
+    <MESSAGE value="webpack.config.js update" />
+    <MESSAGE value="install tailwind and autoprefixer via intellij" />
+    <MESSAGE value="npm install --save-dev packages" />
+    <MESSAGE value="Detail of npm packages" />
+    <MESSAGE value="text is display in the window but not the css style" />
+    <MESSAGE value="-css work __ tailwind ?" />
+    <MESSAGE value="test tailwind.config.js" />
+    <MESSAGE value="Let's go !" />
+    <MESSAGE value="Part 6 options is not display" />
+    <MESSAGE value="Part 6 options page is display" />
+    <MESSAGE value="delete unused file" />
+    <MESSAGE value="webpack.config.js optimisation #splitchunks" />
+    <MESSAGE value="images" />
+    <MESSAGE value=".gif in popup" />
+    <MESSAGE value="End part 6 === Close React branch" />
+    <MESSAGE value="Background" />
+    <MESSAGE value="End part 7" />
+    <MESSAGE value="contentScript.ts works" />
+    <MESSAGE value="yarn run webpack --watch --progress --config webpack.prod.js" />
+    <MESSAGE value="yarn run &quot;scripts&quot; config" />
+    <MESSAGE value="End part 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="End part 8" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
