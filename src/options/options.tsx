@@ -1,10 +1,10 @@
 import React from 'react';
 import {createRoot} from "react-dom/client";
 import '../assets/tailwind.css';
-import Clock from "../popup/clock";
-import NavBar from "../popup/navBar";
-import gif from "../popup/gif";
-import VUMeter from "../popup/VUMeter";
+import Clock from "../components/clock";
+import NavBar from "../components/navBar";
+import gif from "../components/gif";
+import VUMeter from "../components/VUMeter";
 
 
 const container = document.createElement('div')

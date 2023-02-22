@@ -1,10 +1,11 @@
 import React from 'react';
 import {createRoot} from "react-dom/client";
 import '../assets/tailwind.css';
-import Clock from "./clock";
-import NavBar from "./navBar";
-import gif from "./gif";
-import VUMeter from "./VUMeter";
+import Clock from "../components/clock";
+import NavBar from "../components/navBar";
+import gif from "../components/gif";
+import VUMeter from "../components/VUMeter";
+import FetchAudioAPI from "./fetchAudioAPI";
 
 
 const container = document.createElement('div')
@@ -16,6 +17,7 @@ root.render(
         <Clock/>
         <NavBar title={"My App"}/>
         <VUMeter/>
+        <FetchAudioAPI/>
     </>
 )
 

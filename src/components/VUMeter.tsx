@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
+
+//Display only a red rectangle
 const VUMeter = () => {
     const [level, setLevel] = useState(0);
 
