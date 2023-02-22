@@ -9,10 +9,10 @@ function myFunc() {
 }
 
 function sendValueToPopup(value) {
-    chrome.runtime.sendMessage({ type: "update_value", value: value });
+    chrome.runtime.sendMessage({type: "update_value", value: value});
 }
 
-setInterval(function() {
+setInterval(function () {
     const value = myFunc();
     sendValueToPopup(value);
 }, 1000);
