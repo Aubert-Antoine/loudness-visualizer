@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkloudness_visualizer"] = self["webpackChunkloudness_visualizer"] || []).push([["src_assets_tailwind_css"],{
+(self["webpackChunkloudness_visualizer"] = self["webpackChunkloudness_visualizer"] || []).push([["src_popup_VUMeter_tsx-src_popup_clock_tsx-src_popup_gif_tsx-src_popup_navBar_tsx"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/assets/tailwind.css":
 /*!*********************************************************************************************************************************************!*\
@@ -79,7 +79,129 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_1_use_2_tailwind_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_1_use_2_tailwind_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_1_use_2_tailwind_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
+/***/ }),
+
+/***/ "./src/popup/VUMeter.tsx":
+/*!*******************************!*\
+  !*** ./src/popup/VUMeter.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const VUMeter = () => {
+    const [level, setLevel] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const updateLevel = () => {
+            // Get the current level from your JavaScript script
+            const currentLevel = 74;
+            setLevel(currentLevel);
+        };
+        // Call updateLevel for the first time to initialize the VU meter
+        updateLevel();
+        // Set an interval to update the level every 100 milliseconds
+        const intervalId = setInterval(updateLevel, 100);
+        // Clean up the interval when the component unmounts
+        return () => clearInterval(intervalId);
+    }, []);
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", { className: "h-16 w-full", viewBox: "0 0 100 16" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", { x: 0, y: 0, width: 10, height: 10, fill: "red" })));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (VUMeter);
+
+
+/***/ }),
+
+/***/ "./src/popup/clock.tsx":
+/*!*****************************!*\
+  !*** ./src/popup/clock.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const Clock = () => {
+    const [time, setTime] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(new Date());
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const intervalId = setInterval(() => {
+            setTime(new Date());
+        }, 1000);
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, []);
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null,
+            "Current Time: ",
+            time.toLocaleTimeString())));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clock);
+
+
+/***/ }),
+
+/***/ "./src/popup/gif.tsx":
+/*!***************************!*\
+  !*** ./src/popup/gif.tsx ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_tailwind_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/tailwind.css */ "./src/assets/tailwind.css");
+
+
+const Gif = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl text-green-500" }, "Hello World"),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "vuMeter.gif", alt: "A gif of a VU meter" })));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Gif);
+
+
+/***/ }),
+
+/***/ "./src/popup/navBar.tsx":
+/*!******************************!*\
+  !*** ./src/popup/navBar.tsx ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const NavBar = ({ title }) => {
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null,
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, title),
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null,
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "Home")),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "About")),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "Contact")))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);
+
+
 /***/ })
 
 }]);
-//# sourceMappingURL=src_assets_tailwind_css.js.map
+//# sourceMappingURL=src_popup_VUMeter_tsx-src_popup_clock_tsx-src_popup_gif_tsx-src_popup_navBar_tsx.js.map

@@ -4,6 +4,7 @@ import '../assets/tailwind.css';
 import Clock from "./clock";
 import NavBar from "./navBar";
 import gif from "./gif";
+import VUMeter from "./VUMeter";
 
 
 const container = document.createElement('div')
@@ -14,6 +15,7 @@ root.render(
         {gif}
         <Clock/>
         <NavBar title={"My App"}/>
+        <VUMeter/>
     </>
 )
 

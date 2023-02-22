@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="component tsx clock bug">
-      <change afterPath="$PROJECT_DIR$/src/popup/clock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/popup/navBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_02_2023_19_06_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_02_2023_19_06__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_02_2023_19_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_02_2023_19_07__Changes_.xml" beforeDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Render multiple react components">
+      <change afterPath="$PROJECT_DIR$/src/popup/VUMeter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/popup/rect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contentScript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/gif.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/gif.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_assets_tailwind_css.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/options/options.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/options/options.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +113,7 @@
       <workItem from="1674662991001" duration="1985000" />
       <workItem from="1674995454057" duration="11851000" />
       <workItem from="1675537546533" duration="7700000" />
-      <workItem from="1677061326391" duration="2981000" />
+      <workItem from="1677061326391" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -427,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676994953182</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Render multiple react components">
+      <created>1677089046754</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677089046754</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Render multiple react components">
+      <created>1677089061393</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677089061393</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Part 3 [#end] -|- simple popup" />
     <MESSAGE value="Part 4 popup.html" />
     <MESSAGE value="webpack.config.js update" />
     <MESSAGE value="install tailwind and autoprefixer via intellij" />
@@ -486,7 +495,8 @@
     <MESSAGE value="End part 8" />
     <MESSAGE value="Merge on main from dev" />
     <MESSAGE value="component tsx clock bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="component tsx clock bug" />
+    <MESSAGE value="Render multiple react components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Render multiple react components" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

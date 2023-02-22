@@ -2,92 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/popup/clock.tsx":
-/*!*****************************!*\
-  !*** ./src/popup/clock.tsx ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-const Clock = () => {
-    const [time, setTime] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(new Date());
-    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-        const intervalId = setInterval(() => {
-            setTime(new Date());
-        }, 1000);
-        return () => {
-            clearInterval(intervalId);
-        };
-    }, []);
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null,
-            "Current Time: ",
-            time.toLocaleTimeString())));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clock);
-
-
-/***/ }),
-
-/***/ "./src/popup/gif.tsx":
-/*!***************************!*\
-  !*** ./src/popup/gif.tsx ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_tailwind_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/tailwind.css */ "./src/assets/tailwind.css");
-
-
-const Gif = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl text-green-500" }, "Hello World"),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "vuMeter.gif", alt: "A gif of a VU meter" })));
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Gif);
-
-
-/***/ }),
-
-/***/ "./src/popup/navBar.tsx":
-/*!******************************!*\
-  !*** ./src/popup/navBar.tsx ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-const NavBar = ({ title }) => {
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null,
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, title),
-        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null,
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "Home")),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "About")),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null,
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", { href: "#" }, "Contact")))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);
-
-
-/***/ }),
-
 /***/ "./src/popup/popup.tsx":
 /*!*****************************!*\
   !*** ./src/popup/popup.tsx ***!
@@ -102,6 +16,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _clock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clock */ "./src/popup/clock.tsx");
 /* harmony import */ var _navBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navBar */ "./src/popup/navBar.tsx");
 /* harmony import */ var _gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./gif */ "./src/popup/gif.tsx");
+/* harmony import */ var _VUMeter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./VUMeter */ "./src/popup/VUMeter.tsx");
+
 
 
 
@@ -114,7 +30,8 @@ const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(contai
 root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
     _gif__WEBPACK_IMPORTED_MODULE_5__["default"],
     react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_clock__WEBPACK_IMPORTED_MODULE_3__["default"], null),
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_navBar__WEBPACK_IMPORTED_MODULE_4__["default"], { title: "My App" })));
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_navBar__WEBPACK_IMPORTED_MODULE_4__["default"], { title: "My App" }),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_VUMeter__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 
 
 /***/ })
@@ -296,7 +213,7 @@ root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__W
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_assets_tailwind_css"], () => (__webpack_require__("./src/popup/popup.tsx")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_popup_VUMeter_tsx-src_popup_clock_tsx-src_popup_gif_tsx-src_popup_navBar_tsx"], () => (__webpack_require__("./src/popup/popup.tsx")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

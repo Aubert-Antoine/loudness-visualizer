@@ -13,15 +13,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _assets_tailwind_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/tailwind.css */ "./src/assets/tailwind.css");
+/* harmony import */ var _popup_clock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../popup/clock */ "./src/popup/clock.tsx");
+/* harmony import */ var _popup_navBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../popup/navBar */ "./src/popup/navBar.tsx");
+/* harmony import */ var _popup_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../popup/gif */ "./src/popup/gif.tsx");
+/* harmony import */ var _popup_VUMeter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../popup/VUMeter */ "./src/popup/VUMeter.tsx");
 
 
 
-const test = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl text-green-500" }, "Options")));
+
+
+
+
 const container = document.createElement('div');
 document.body.appendChild(container);
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(container);
-root.render(test);
+root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
+    _popup_gif__WEBPACK_IMPORTED_MODULE_5__["default"],
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_popup_clock__WEBPACK_IMPORTED_MODULE_3__["default"], null),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_popup_navBar__WEBPACK_IMPORTED_MODULE_4__["default"], { title: "My App" }),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_popup_VUMeter__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 
 
 /***/ })
@@ -203,7 +213,7 @@ root.render(test);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_assets_tailwind_css"], () => (__webpack_require__("./src/options/options.tsx")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_popup_VUMeter_tsx-src_popup_clock_tsx-src_popup_gif_tsx-src_popup_navBar_tsx"], () => (__webpack_require__("./src/options/options.tsx")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
