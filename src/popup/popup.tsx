@@ -4,8 +4,6 @@ import '../assets/tailwind.css';
 import Clock from "../components/clock";
 import NavBar from "../components/navBar";
 import gif from "../components/gif";
-import VUMeter from "../components/VUMeter";
-import FetchAudioAPI from "./fetchAudioAPI";
 
 
 const container = document.createElement('div')
@@ -16,8 +14,6 @@ root.render(
         {gif}
         <Clock/>
         <NavBar title={"My App"}/>
-        <VUMeter/>
-        <FetchAudioAPI/>
     </>
 )
 

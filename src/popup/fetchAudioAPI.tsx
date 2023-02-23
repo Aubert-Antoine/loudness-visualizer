@@ -1,31 +1,43 @@
-import React, {useState} from 'react';
-import AudioGraph from '../components/AudioGraph';
 
-function App() {
-    const [audioStream, setAudioStream] = useState(null);
+/*import React, { useState, useEffect } from "react";
 
-    function startAudioCapture() {
-        // Get the current tab
-        chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
+function AudioStream() {
+    const [dbValue, setDbValue] = useState(0);
+
+    useEffect(() => {
+        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var tab = tabs[0];
 
-            // Capture the audio stream of the tab
-            chrome.tabCapture.capture({audio: true, video: false}, function (stream) {
-                setAudioStream(stream);
+            chrome.tabCapture.capture({ audio: true, video: false }, function (stream) {
+                var audioContext = new AudioContext();
+                var sourceNode = audioContext.createMediaStreamSource(stream);
+                var analyserNode = audioContext.createAnalyser();
+                sourceNode.connect(analyserNode);
+                analyserNode.connect(audioContext.destination);
+
+                setInterval(function () {
+                    var dataArray = new Float32Array(analyserNode.frequencyBinCount);
+                    analyserNode.getFloatTimeDomainData(dataArray);
+
+                    var rms = 0;
+                    for (var i = 0; i < dataArray.length; i++) {
+                        rms += dataArray[i] * dataArray[i];
+                    }
+                    rms /= dataArray.length;
+                    var db = Math.sqrt(rms) * 20;
+                    console.log("db : " + db)
+
+                    setDbValue(Number(db.toFixed(2)));
+                }, 1000);
             });
         });
-    }
+    }, []);
 
     return (
         <div>
-            <h1>Audio Graph</h1>
-            {audioStream ? (
-                <AudioGraph audioStream={audioStream}></AudioGraph>
-            ) : (
-                <button onClick={startAudioCapture}>Start capturing audio</button>
-            )}
+            <p>Current dB value: {dbValue}</p>
         </div>
     );
 }
 
-export default App;
+export default AudioStream;*/

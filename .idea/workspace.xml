@@ -4,22 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Display a red rectangle">
-      <change afterPath="$PROJECT_DIR$/src/components/audioGraph.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/popup/fetchAudioAPI.tsx" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Chrome.tab.capture(audio) bug">
+      <change afterPath="$PROJECT_DIR$/sourceCodeChromeStore/bg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/653.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/653.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/653.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/653.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/background.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contentScript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/options/options.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/options/options.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/VUMeter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VUMeter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/gif.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gif.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/background.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/background.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contentScript/contentScript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contentScript/contentScript.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popup/fetchAudioAPI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/fetchAudioAPI.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +38,9 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,11 +52,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aa80245e-fb24-4851-adfe-afcdc16a24d9" />
+        <option name="url" value="https://github.com/Aubert-Antoine/loudness-visualizer.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KSdiqHSOOGRyh8fl0HaeH40MzW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -116,7 +136,8 @@
       <workItem from="1674662991001" duration="1985000" />
       <workItem from="1674995454057" duration="11851000" />
       <workItem from="1675537546533" duration="7700000" />
-      <workItem from="1677061326391" duration="6857000" />
+      <workItem from="1677061326391" duration="8973000" />
+      <workItem from="1677147424102" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -447,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677090783381</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Chrome.tab.capture(audio) bug">
+      <created>1677097205126</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677097205126</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +495,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev" />
+                        <option value="api_stream" />
                       </list>
                     </value>
                   </entry>
@@ -481,7 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="webpack.config.js update" />
     <MESSAGE value="install tailwind and autoprefixer via intellij" />
     <MESSAGE value="npm install --save-dev packages" />
     <MESSAGE value="Detail of npm packages" />
@@ -506,7 +533,8 @@
     <MESSAGE value="component tsx clock bug" />
     <MESSAGE value="Render multiple react components" />
     <MESSAGE value="Display a red rectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display a red rectangle" />
+    <MESSAGE value="Chrome.tab.capture(audio) bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chrome.tab.capture(audio) bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

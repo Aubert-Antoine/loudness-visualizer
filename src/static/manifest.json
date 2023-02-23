@@ -15,7 +15,8 @@
   },
   "permissions": [
     "tabs",
-    "bookmarks"
+    "bookmarks",
+    "activeTab"
   ],
   "background": {
     "service_worker": "background.js"

@@ -2,6 +2,43 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/components/VUMeter.tsx":
+/*!************************************!*\
+  !*** ./src/components/VUMeter.tsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+//Display only a red rectangle
+const VUMeter = () => {
+    const [level, setLevel] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+        const updateLevel = () => {
+            // Get the current level from your JavaScript script
+            const currentLevel = 74;
+            setLevel(currentLevel);
+        };
+        // Call updateLevel for the first time to initialize the VU meter
+        updateLevel();
+        // Set an interval to update the level every 100 milliseconds
+        const intervalId = setInterval(updateLevel, 100);
+        // Clean up the interval when the component unmounts
+        return () => clearInterval(intervalId);
+    }, []);
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", { className: "h-16 w-full", viewBox: "0 0 100 16" },
+        react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", { x: 0, y: 0, width: 10, height: 10, fill: "red" })));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (VUMeter);
+
+
+/***/ }),
+
 /***/ "./src/options/options.tsx":
 /*!*********************************!*\
   !*** ./src/options/options.tsx ***!
@@ -213,7 +250,7 @@ root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__W
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_components_VUMeter_tsx-src_components_clock_tsx-src_components_gif_tsx-src_components_nav-c4b87e"], () => (__webpack_require__("./src/options/options.tsx")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react_index_js","vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e","src_components_clock_tsx-src_components_gif_tsx-src_components_navBar_tsx"], () => (__webpack_require__("./src/options/options.tsx")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
