@@ -4,6 +4,7 @@ import '../assets/tailwind.css';
 import Clock from "../components/clock";
 import NavBar from "../components/navBar";
 import gif from "../components/gif";
+import FetchAudioAPI from "./fetchAudioAPI";
 
 
 const container = document.createElement('div')
@@ -11,9 +12,11 @@ document.body.appendChild(container)
 const root = createRoot(container)
 root.render(
     <>
+        <NavBar title={"My App"}/>
         {gif}
         <Clock/>
-        <NavBar title={"My App"}/>
+        <FetchAudioAPI/>
+        <p>test</p>
     </>
 )
 

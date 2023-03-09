@@ -1,5 +1,4 @@
-
-/*import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 
 function AudioStream() {
     const [dbValue, setDbValue] = useState(0);
@@ -8,27 +7,33 @@ function AudioStream() {
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             var tab = tabs[0];
 
-            chrome.tabCapture.capture({ audio: true, video: false }, function (stream) {
-                var audioContext = new AudioContext();
-                var sourceNode = audioContext.createMediaStreamSource(stream);
-                var analyserNode = audioContext.createAnalyser();
-                sourceNode.connect(analyserNode);
-                analyserNode.connect(audioContext.destination);
+            chrome.tabCapture.capture({audio: true, video: false}, function (
+                stream
+            ) {
+                if (stream) {
+                    var audioContext = new AudioContext();
+                    var sourceNode = audioContext.createMediaStreamSource(stream);
+                    var analyserNode = audioContext.createAnalyser();
+                    sourceNode.connect(analyserNode);
+                    analyserNode.connect(audioContext.destination);
 
-                setInterval(function () {
-                    var dataArray = new Float32Array(analyserNode.frequencyBinCount);
-                    analyserNode.getFloatTimeDomainData(dataArray);
+                    setInterval(function () {
+                        var dataArray = new Float32Array(analyserNode.frequencyBinCount);
+                        analyserNode.getFloatTimeDomainData(dataArray);
 
-                    var rms = 0;
-                    for (var i = 0; i < dataArray.length; i++) {
-                        rms += dataArray[i] * dataArray[i];
-                    }
-                    rms /= dataArray.length;
-                    var db = Math.sqrt(rms) * 20;
-                    console.log("db : " + db)
+                        var rms = 0;
+                        for (var i = 0; i < dataArray.length; i++) {
+                            rms += dataArray[i] * dataArray[i];
+                        }
+                        rms /= dataArray.length;
+                        var db = Math.sqrt(rms) * 20;
+                        console.log("db : " + db);
 
-                    setDbValue(Number(db.toFixed(2)));
-                }, 1000);
+                        setDbValue(Number(db.toFixed(2)));
+                    }, 1000);
+                } else {
+                    console.log("Stream is null");
+                }
             });
         });
     }, []);
@@ -40,4 +45,4 @@ function AudioStream() {
     );
 }
 
-export default AudioStream;*/
+export default AudioStream;

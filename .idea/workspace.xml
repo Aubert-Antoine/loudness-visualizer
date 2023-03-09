@@ -4,29 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="Chrome.tab.capture(audio) bug">
-      <change afterPath="$PROJECT_DIR$/sourceCodeChromeStore/bg.js" afterDir="false" />
+    <list default="true" id="989be879-e9b3-4b92-bd83-2159f9a5a863" name="Changes" comment="End of Extension-Properties">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_01_2023_20_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_01_2023_20_00__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/653.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/653.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/653.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/653.js.LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/background.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/background.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/background.js.LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/contentScript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contentScript.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/options.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/options.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popup.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_components_clock_tsx-src_components_gif_tsx-src_components_navBar_tsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_components_clock_tsx-src_components_gif_tsx-src_components_navBar_tsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src_components_clock_tsx-src_components_gif_tsx-src_components_navBar_tsx.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src_components_clock_tsx-src_components_gif_tsx-src_components_navBar_tsx.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background/background.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/background.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contentScript/contentScript.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/contentScript/contentScript.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors-node_modules_react_index_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendors-node_modules_react_index_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gif.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gif.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popup/fetchAudioAPI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/fetchAudioAPI.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popup/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,6 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -52,24 +56,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="aa80245e-fb24-4851-adfe-afcdc16a24d9" />
-        <option name="url" value="https://github.com/Aubert-Antoine/loudness-visualizer.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KSdiqHSOOGRyh8fl0HaeH40MzW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -79,35 +70,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;api__stream&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/antoi/IdeaProjects/loudness-visualizer/dist&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.14.6",
+    "last_opened_file_path": "C:/Users/antoi/IdeaProjects/loudness-visualizer/dist",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "ts.external.directory.path": "C:\\Users\\antoi\\IdeaProjects\\loudness-visualizer\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\components" />
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\static" />
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src\assets" />
       <recent name="C:\Users\antoi\IdeaProjects\loudness-visualizer\src" />
@@ -136,8 +126,7 @@
       <workItem from="1674662991001" duration="1985000" />
       <workItem from="1674995454057" duration="11851000" />
       <workItem from="1675537546533" duration="7700000" />
-      <workItem from="1677061326391" duration="8973000" />
-      <workItem from="1677147424102" duration="4873000" />
+      <workItem from="1678369400361" duration="7084000" />
     </task>
     <task id="LOCAL-00001" summary="del unused files">
       <created>1673972451064</created>
@@ -433,49 +422,7 @@
       <option name="project" value="LOCAL" />
       <updated>1675617714603</updated>
     </task>
-    <task id="LOCAL-00043" summary="Merge on main from dev">
-      <created>1676975747600</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1676975747601</updated>
-    </task>
-    <task id="LOCAL-00044" summary="component tsx clock bug">
-      <created>1676994953182</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1676994953182</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Render multiple react components">
-      <created>1677089046754</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1677089046754</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Render multiple react components">
-      <created>1677089061393</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1677089061393</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Display a red rectangle">
-      <created>1677090783381</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1677090783381</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Chrome.tab.capture(audio) bug">
-      <created>1677097205126</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1677097205126</updated>
-    </task>
-    <option name="localTasksCounter" value="49" />
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +442,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="api_stream" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -509,6 +456,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="extension load ok" />
+    <MESSAGE value="popup.html is working thanks to html-webpack-plugin" />
+    <MESSAGE value="Part 3 [#end] -|- simple popup" />
+    <MESSAGE value="Part 4 popup.html" />
+    <MESSAGE value="webpack.config.js update" />
     <MESSAGE value="install tailwind and autoprefixer via intellij" />
     <MESSAGE value="npm install --save-dev packages" />
     <MESSAGE value="Detail of npm packages" />
@@ -529,12 +481,7 @@
     <MESSAGE value="yarn run webpack --watch --progress --config webpack.prod.js" />
     <MESSAGE value="yarn run &quot;scripts&quot; config" />
     <MESSAGE value="End part 8" />
-    <MESSAGE value="Merge on main from dev" />
-    <MESSAGE value="component tsx clock bug" />
-    <MESSAGE value="Render multiple react components" />
-    <MESSAGE value="Display a red rectangle" />
-    <MESSAGE value="Chrome.tab.capture(audio) bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chrome.tab.capture(audio) bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="End part 8" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

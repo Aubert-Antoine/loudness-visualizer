@@ -16,7 +16,8 @@
   "permissions": [
     "tabs",
     "bookmarks",
-    "activeTab"
+    "activeTab",
+    "tabCapture"
   ],
   "background": {
     "service_worker": "background.js"
@@ -24,7 +25,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.google.com/*"
+        "<all_urls>"
       ],
       "js": [
         "contentScript.js"

@@ -14,21 +14,37 @@
     "default_icon": "icon.png"
   },
   "permissions": [
+    "activeTab",
     "tabs",
     "bookmarks",
-    "activeTab"
+    "scripting",
+    "storage",
+    "hostPermissions",
+    "background",
+    "clipboardWrite",
+    "clipboardRead",
+    "notifications",
+    "nativeMessaging",
+    "privacy",
+    "identity",
+    "webRequest",
+    "webRequestBlocking",
+    "declarativeContent",
+    "contextMenus",
+    "chromeSettingsPrivate",
+    "captureAudio",
+    "bookmark"
+  ],
+  "host_permissions": [
+  "storage"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://*.google.com/*"
-      ],
-      "js": [
-        "contentScript.js"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
     }
   ],
   "options_page": "popup.html"
