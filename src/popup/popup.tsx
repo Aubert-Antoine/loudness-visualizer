@@ -5,6 +5,7 @@ import Clock from "../components/clock";
 import NavBar from "../components/navBar";
 import gif from "../components/gif";
 import FetchAudioAPI from "./fetchAudioAPI";
+import BottomNav from "../components/bottomNav";
 
 
 const container = document.createElement('div')
@@ -16,7 +17,8 @@ root.render(
         {gif}
         <Clock/>
         <FetchAudioAPI/>
-        <p>test</p>
+            <p>test</p>
+            <BottomNav size={"Normal"}/>
     </>
 )
 
