@@ -95,4 +95,4 @@ import {createRoot} from "react-dom/client";
 
 # bug
 
-Modif dans webapack common 
+Modif dans webapack common pour ajouter une image

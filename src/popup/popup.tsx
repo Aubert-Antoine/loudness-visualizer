@@ -13,12 +13,10 @@ document.body.appendChild(container)
 const root = createRoot(container)
 root.render(
     <>
+        <BottomNav size={"Normal"}/>
         <NavBar title={"My App"}/>
         {gif}
         <Clock/>
-        <FetchAudioAPI/>
-            <p>test</p>
-            <BottomNav size={"Normal"}/>
     </>
 )
 
